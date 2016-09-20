@@ -1,0 +1,52 @@
+{
+  "name": "electrode-example-app-with-plugin-and-routes",
+  "version": "0.0.0",
+  "description": "electrode-app",
+  "homepage": "electrode",
+  "author": {
+    "name": "james-mcintyre",
+    "email": "james.checks.his.email@gmail.com",
+    "url": "jamesiscoding.com"
+  },
+  "authors": [
+    "James McIntyre <jmcintyre@walmartlabs.com> (https://github.com/jamesmcintyre)",
+    "Tiffine Koch <tkoch@walmartlabs.com> (https://github.com/tiffine-koch)"
+  ],
+  "contributors": [],
+  "files": [
+    "lib"
+  ],
+  "main": "server/index.js",
+  "engine": {
+    "node": ">=4.0.0",
+    "npm": ">=3.0.0"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "electrode-io/electrode-example-app-with-plugin-and-routes"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "gulp test",
+    "coverage": "gulp check",
+    "heroku-postbuild": "gulp build"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "electrode-confippet": "^1.5.0",
+    "electrode-houseparty-example-component": "^2.0",
+    "electrode-router-resolver-engine": "^1.0.0",
+    "electrode-server": "^1.0.0",
+    "electrode-static-paths": "^1.0.0",
+    "github": "^3.1.0",
+    "inert": "^4.0.1",
+    "lodash": "^4.10.1"
+  },
+  "devDependencies": {
+    "electrode-archetype-react-app": "^1.0.0",
+    "electrode-archetype-react-app-dev": "^1.0.0",
+    "gulp": "^3.9.1"
+  }
+}
